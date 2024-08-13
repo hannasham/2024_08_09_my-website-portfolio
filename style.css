@@ -208,7 +208,8 @@ section {
     text-align: center;
     /* color: rgba(246,246,246,255); */
     /* color: #E6D0C8; */
-    color: #FAA774;
+    /* color: #FAA774; */
+    color: rgba(255,152,0,255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
@@ -426,6 +427,14 @@ article .icon {
 #contact .title {
     font-size: 3rem;
     text-align: center;
+}
+
+#contact .title:hover,
+#about .title:hover,
+#experience .title:hover,
+#projects .title:hover
+{
+    color: rgba(255,152,0,255);    
 }
 
 #contact {
