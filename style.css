@@ -210,7 +210,7 @@ section {
     /* color: #E6D0C8; */
     /* color: #FAA774; */
     color: rgba(255,152,0,255);
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-shadow: -1px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1px black;
 }
 
  #profile #nna {
@@ -429,12 +429,14 @@ article .icon {
     text-align: center;
 }
 
+#profile .title:hover,
 #contact .title:hover,
 #about .title:hover,
 #experience .title:hover,
 #projects .title:hover
 {
-    color: rgba(255,152,0,255);    
+    color: rgba(255,152,0,255);
+    text-shadow: -1px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1px black;    
 }
 
 #contact {
